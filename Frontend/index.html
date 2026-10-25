@@ -1,0 +1,688 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="IRONFIT Gym and Fitness - Membership plans, modern equipment and fitness training.">
+  <title>IRONFIT | Gym & Fitness</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black text-white">
+
+  <header class="sticky top-0 z-50 border-b border-gray-800 bg-black/95">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-8">
+
+      <a href="#home" class="flex items-center gap-2">
+        <span class="text-3xl text-red-500 w-10 h-10">
+            <img src="../gymimg.png" alt="Gym logo">
+        </span>
+        <div>
+          <h1 class="text-2xl font-extrabold leading-none">
+            IRON<span class="text-red-500">FIT</span>
+          </h1>
+          <p class="mt-1 text-xs tracking-widest text-gray-400">
+            GYM & FITNESS
+          </p>
+        </div>
+      </a>
+
+      <div class="hidden items-center gap-6 text-sm font-semibold lg:flex">
+        <a href="#home" class="text-red-500 hover:text-red-400">Home</a>
+        <a href="#services" class="hover:text-red-500">Services</a>
+        <a href="#offers" class="hover:text-red-500">Offers</a>
+        <a href="#gallery" class="hover:text-red-500">Gallery</a>
+        <a href="#contact" class="hover:text-red-500">Contact</a>
+      </div>
+
+      <a href="#offers"
+         class="rounded-lg bg-red-600 px-4 py-2.5 text-sm font-bold transition hover:bg-red-700 sm:px-5">
+        Join Now
+      </a>
+
+      <!-- Mobile Menu Button -->
+      <button id="menuBtn"
+              class="ml-3 rounded-lg border border-gray-700 px-3 py-2 lg:hidden"
+              aria-expanded="false"
+              aria-controls="mobileMenu"
+              aria-label="Toggle navigation menu"
+      </button>
+
+    </nav>
+
+    <div id="mobileMenu" class="hidden border-t border-gray-800 bg-zinc-950 px-5 py-4 lg:hidden">
+      <div class="flex flex-col gap-1 text-sm font-semibold">
+        <a href="#home" class="rounded-lg px-3 py-3 hover:bg-zinc-900 hover:text-red-500">Home</a>
+        <a href="#services" class="rounded-lg px-3 py-3 hover:bg-zinc-900 hover:text-red-500">Services</a>
+        <a href="#offers" class="rounded-lg px-3 py-3 hover:bg-zinc-900 hover:text-red-500">Offers</a>
+        <a href="#gallery" class="rounded-lg px-3 py-3 hover:bg-zinc-900 hover:text-red-500">Gallery</a>
+        <a href="#contact" class="rounded-lg px-3 py-3 hover:bg-zinc-900 hover:text-red-500">Contact</a>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+
+    
+    <section id="home"
+      class="relative flex min-h-[570px] items-center overflow-hidden bg-cover bg-center md:min-h-[650px]"
+      style="background-image: url('https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=1800&q=85');">
+
+      
+      <div class="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-black/40"></div>
+
+    
+      <div class="relative mx-auto w-full max-w-7xl px-5 py-20 md:px-8">
+
+        <div class="max-w-2xl">
+
+          <p class="mb-5 font-bold  text-red-500">
+            NO EXCUSES JUST RESULTS
+          </p>
+
+          <h2 class="text-5xl font-black leading-tight sm:text-6xl md:text-7xl">
+            BUILD A<br>
+            STRONGER<br>
+            <span class="text-red-500">YOU.</span>
+          </h2>
+
+          <p class="mt-6 max-w-xl text-base leading-7 text-gray-200 sm:text-lg">
+            Modern Equipment | Expert Trainers |
+            Personalized Training | Real Results.
+            Start your fitness journey with IRONFIT today.
+          </p>
+
+          <div class="mt-8 flex flex-col gap-4 sm:flex-row">
+
+            <a href="#offers"
+               class="rounded-lg bg-red-600 px-8 py-3.5 text-center font-bold transition hover:bg-red-700">
+              Join Now
+            </a>
+
+            <a href="#services"
+               class="rounded-lg border border-white px-8 py-3.5 text-center font-bold transition hover:bg-white hover:text-black">
+              Explore Services
+            </a>
+
+          </div>
+
+          <div class="mt-12 grid max-w-lg grid-cols-3 gap-4 border-t border-white/20 pt-6">
+            <div>
+              <h3 class="text-2xl font-black sm:text-3xl">12<span class="text-red-500">+</span></h3>
+              <p class="mt-1 text-xs text-gray-300 sm:text-sm">Training Options</p>
+            </div>
+            <div>
+              <h3 class="text-2xl font-black sm:text-3xl">1:1</h3>
+              <p class="mt-1 text-xs text-gray-300 sm:text-sm">Personal Coaching</p>
+            </div>
+            <div>
+              <h3 class="text-2xl font-black sm:text-3xl">100<span class="text-red-500">%</span></h3>
+              <p class="mt-1 text-xs text-gray-300 sm:text-sm">Your Commitment</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section id="services" class="px-5 py-16 md:px-8 md:py-20">
+
+      <div class="mx-auto max-w-7xl">
+
+        <div class="text-center">
+          <p class="font-bold tracking-[3px] text-red-500">WHAT WE OFFER</p>
+          <h2 class="mt-3 text-3xl font-black sm:text-4xl">
+            OUR <span class="text-red-500">SERVICES</span>
+          </h2>
+          <p class="mx-auto mt-4 max-w-xl text-gray-400">
+            Everything you need to build strength, improve stamina
+            and work towards your fitness goals.
+          </p>
+        </div>
+
+        <div class="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 rounded-full">
+
+
+          <div class="rounded-xl border border-gray-800 bg-zinc-950 p-7 transition hover:-translate-y-1 hover:border-red-500 rounded-full">
+            <div class="text-4xl h-8 w-8">
+              <span h-8 w-8>
+                <img class="rounded-full" src="../pexels-ardit-mbrati-216809103-36534252.jpg" alt="Weight trainig">
+              </span>
+            </div>
+            <h3 class="mt-5 text-xl font-bold">Weight Training</h3>
+            <p class="mt-3 text-gray-400">
+              Build strength and muscle using modern equipment
+              and structured resistance workouts.
+            </p>
+          </div>
+
+          
+          <div class="rounded-xl border border-gray-800 bg-zinc-950 p-7 transition hover:-translate-y-1 hover:border-red-500">
+            <div class="text-4xl h-8 w-8"> 
+            <img class="rounded-full" src="../pexels-jean-daniel-19254708.jpg" alt="Weight trainig"></div>
+            <h3 class="mt-5 text-xl font-bold">Cardio Fitness</h3>
+            <p class="mt-3 text-gray-400">
+              Improve endurance and stamina with cardio
+              workouts designed for your fitness level.
+            </p>
+          </div>
+
+        
+          <div class="rounded-xl border border-gray-800 bg-zinc-950 p-7 transition hover:-translate-y-1 hover:border-red-500">
+            <div class="text-4xl h-8 w-8">
+               <img class="rounded-full" src="../istockphoto-1849345050-612x612.jpg" alt="Weight trainig">
+            </div>
+            <h3 class="mt-5 text-xl font-bold">Personal Training</h3>
+            <p class="mt-3 text-gray-400">
+              Get individual coaching and a workout plan
+              tailored to your personal goals.
+            </p>
+          </div>
+
+          <div class="rounded-xl border border-gray-800 bg-zinc-950 p-7 transition hover:-translate-y-1 hover:border-red-500">
+            <div class="text-4x h-8 w-8">
+            <img class="rounded-full" src="../top-view-of-a-broad-variety-of-perfect-nutrition-food-ingredients-for-healthy-life-photo.jpg" alt="Weight trainig">
+            </div>
+            <h3 class="mt-5 text-xl font-bold">Nutrition Guidance</h3>
+            <p class="mt-3 text-gray-400">
+              Learn about balanced nutrition to complement
+              your workout and recovery routine.
+            </p>
+          </div>
+
+          <div class="rounded-xl border border-gray-800 bg-zinc-950 p-7 transition hover:-translate-y-1 hover:border-red-500">
+            <div class="text-4xl h-8 w-8">
+            <img class="rounded-full" src="../pexels-photo-37677569.avif" alt="Weight trainig">
+            </div>
+            <h3 class="mt-5 text-xl font-bold">Group Workouts</h3>
+            <p class="mt-3 text-gray-400">
+              Enjoy structured group sessions in a supportive
+              and motivating training environment.
+            </p>
+          </div>
+
+
+          <div class="rounded-xl border border-gray-800 bg-zinc-950 p-7 transition hover:-translate-y-1 hover:border-red-500">
+            <div class="text-4xl h-8 w-8">
+               <img class="rounded-full" src="../stretching&mobility.png" alt="Weight trainig">
+            </div>
+            <h3 class="mt-5 text-xl font-bold">Stretching & Mobility</h3>
+            <p class="mt-3 text-gray-400">
+              Complement your training with mobility work
+              and flexibility exercises.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="border-y border-gray-800 bg-zinc-950 px-5 py-16 md:px-8 md:py-20">
+
+      <div class="mx-auto grid max-w-7xl items-center gap-10 md:grid-cols-2">
+
+        <div>
+          <p class="font-bold tracking-[3px] text-red-500">WHY IRONFIT?</p>
+
+          <h2 class="mt-3 text-3xl font-black sm:text-4xl">
+            MORE THAN A <span class="text-red-500">WORKOUT.</span>
+          </h2>
+
+          <p class="mt-5 text-gray-400">
+            Build healthy habits in a welcoming fitness environment.
+            Whether you are just starting out or already experienced,
+            we help you make every workout count.
+          </p>
+
+          <div class="mt-7 space-y-4">
+            <p><span class="ml-2">Modern Gym Equipment</span></p>
+            <p><span class="ml-2">Friendly Training Environment</span></p>
+            <p><span class="ml-2">Flexible Membership Plans</span></p>
+            <p><span class="ml-2">Training Options for Different Levels</span></p>
+          </div>
+
+          <a href="#contact"
+             class="mt-8 inline-block rounded-lg bg-red-600 px-7 py-3 font-bold hover:bg-red-700">
+            Visit Our Gym
+          </a>
+        </div>
+
+        <img
+          src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=1200&q=85"
+          alt="Modern gym interior and workout equipment"
+          loading="lazy"
+          class="h-72 w-full rounded-2xl object-cover sm:h-96">
+
+      </div>
+    </section>
+
+
+    <section id="offers" class="px-5 py-16 md:px-8 md:py-20">
+
+      <div class="mx-auto max-w-7xl">
+
+        <div class="text-center">
+          <p class="font-bold tracking-[3px] text-red-500">MEMBERSHIP PLANS</p>
+          <h2 class="mt-3 text-3xl font-black sm:text-4xl">
+            OUR <span class="text-red-500">OFFERS</span>
+          </h2>
+          <p class="mt-4 text-gray-400">
+            Choose the right plan and start your fitness journey today.
+          </p>
+        </div>
+
+        <div class="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-4">
+
+        
+          <div class="flex flex-col rounded-xl border border-gray-800 bg-zinc-950 p-6 transition hover:-translate-y-2 hover:border-red-500">
+
+            <h3 class="border-b border-gray-800 pb-4 text-center text-xl font-bold">
+              BASIC PLAN
+            </h3>
+
+            <p class="mt-5 text-center text-3xl font-black">
+              ₹999 <span class="text-sm font-normal text-gray-400">/ Month</span>
+            </p>
+
+            <ul class="mt-7 flex-1 space-y-4 text-sm text-gray-300">
+              <li>Gym Access</li>
+              <li>Basic Equipment to High</li>
+              <li>Locker Facility</li>
+              <li>Free WiFi</li>
+            </ul>
+
+            <a href="#contact"
+               class="mt-8 block rounded-lg bg-red-600 py-3 text-center font-bold hover:bg-red-700">
+              Get Started
+            </a>
+          </div>
+
+        
+          <div class="relative flex flex-col rounded-xl border-2 border-red-500 bg-zinc-950 p-6">
+
+            <span class="absolute -top-4 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-red-600 px-4 py-2 text-xs font-bold">
+              MOST POPULAR
+            </span>
+
+            <h3 class="mt-3 border-b border-gray-800 pb-4 text-center text-xl font-bold">
+              STANDARD PLAN
+            </h3>
+
+            <p class="mt-5 text-center text-3xl font-black">
+              ₹1,599 <span class="text-sm font-normal text-gray-400">/ Month</span>
+            </p>
+
+            <ul class="mt-7 flex-1 space-y-4 text-sm text-gray-300">
+              <li>Gym Access</li>
+              <li>All Equipment</li>
+              <li>Personal Training (2x/Month)</li>
+              <li>Diet Guidance</li>
+              <li>Locker + Shower</li>
+            </ul>
+
+            <a href="#contact"
+               class="mt-8 block rounded-lg bg-red-600 py-3 text-center font-bold hover:bg-red-700">
+              Get Started
+            </a>
+          </div>
+
+        
+          <div class="flex flex-col rounded-xl border border-gray-800 bg-zinc-950 p-6 transition hover:-translate-y-2 hover:border-red-500">
+
+            <h3 class="border-b border-gray-800 pb-4 text-center text-xl font-bold">
+              PREMIUM PLAN
+            </h3>
+
+            <p class="mt-5 text-center text-3xl font-black">
+              ₹2,499 <span class="text-sm font-normal text-gray-400">/ Month</span>
+            </p>
+
+            <ul class="mt-7 flex-1 space-y-4 text-sm text-gray-300">
+              <li>Gym Access</li>
+              <li>Personal Training (4x/Month)</li>
+              <li>Diet & Nutrition Plan</li>
+              <li>Group Classes</li>
+              <li>Locker + Shower</li>
+            </ul>
+
+            <a href="#contact"
+               class="mt-8 block rounded-lg bg-red-600 py-3 text-center font-bold hover:bg-red-700">
+              Get Started
+            </a>
+          </div>
+
+    
+          <div class="flex flex-col rounded-xl border border-gray-800 bg-zinc-950 p-6 transition hover:-translate-y-2 hover:border-red-500">
+
+            <h3 class="border-b border-gray-800 pb-4 text-center text-xl font-bold">
+              COUPLE PLAN
+            </h3>
+
+            <p class="mt-5 text-center text-3xl font-black">
+              ₹3,999 <span class="text-sm font-normal text-gray-400">/ Month</span>
+            </p>
+
+            <ul class="mt-7 flex-1 space-y-4 text-sm text-gray-300">
+              <li>Two Members</li>
+              <li>All Premium Features</li>
+              <li>Personal Training</li>
+              <li>Diet Guidance</li>
+              <li>Locker + Shower</li>
+            </ul>
+
+            <a href="#contact"
+               class="mt-8 block rounded-lg bg-red-600 py-3 text-center font-bold hover:bg-red-700">
+              Get Started
+            </a>
+          </div>
+
+        </div>
+
+        <p class="mt-6 text-center text-xs text-gray-500">
+          Sample prices. Replace them with your actual membership fees.
+        </p>
+
+      
+        <div class="mt-12 grid gap-6 rounded-2xl border border-gray-800 bg-zinc-950 p-6 md:grid-cols-3">
+
+          <div class="flex items-center gap-4 md:border-r md:border-gray-800 md:pr-5">
+            <div class="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-red-950 text-2xl">
+              🏷️
+            </div>
+            <div>
+              <h3 class="font-bold">OFFERS & DISCOUNTS</h3>
+              <p class="mt-1 text-sm text-gray-400">Ask about annual membership discounts.</p>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-4 md:border-r md:border-gray-800 md:px-5">
+            <div class="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-red-950 text-2xl">
+              🎁
+            </div>
+            <div>
+              <h3 class="font-bold">FREE TRIAL</h3>
+              <p class="mt-1 text-sm text-gray-400">Ask about a trial before joining.</p>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-4 md:pl-5">
+            <div class="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-red-950 text-2xl">
+              👥
+            </div>
+            <div>
+              <h3 class="font-bold">REFER & EARN</h3>
+              <p class="mt-1 text-sm text-gray-400">Ask about referral rewards.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <section id="gallery" class="bg-zinc-950 px-5 py-16 md:px-8 md:py-20">
+
+      <div class="mx-auto max-w-7xl">
+
+        <div class="text-center">
+          <p class="font-bold tracking-[3px] text-red-500">INSIDE IRONFIT</p>
+          <h2 class="mt-3 text-3xl font-black sm:text-4xl">
+            GYM <span class="text-red-500">GALLERY</span>
+          </h2>
+          <p class="mt-4 text-gray-400">
+            Take a look at our fitness and training environment.
+          </p>
+        </div>
+
+        <div class="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+
+          <div class="overflow-hidden rounded-xl">
+            <img
+              src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=900&q=85"
+              alt="Gym floor"
+              loading="lazy"
+              class="h-64 w-full object-cover transition duration-500 group-hover:scale-105">
+          </div>
+
+          <div class="overflow-hidden rounded-xl">
+            <img
+              src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=900&q=85"
+              alt="Weight training equipment"
+              loading="lazy"
+              class="h-64 w-full object-cover transition duration-500 group-hover:scale-105">
+          </div>
+
+          <div class="overflow-hidden rounded-xl">
+            <img
+              src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=900&q=85"
+              alt="Modern fitness center"
+              loading="lazy"
+              class="h-64 w-full object-cover transition duration-500 group-hover:scale-105">
+          </div>
+
+          <div class="overflow-hidden rounded-xl">
+            <img
+              src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=85"
+              alt="Athlete lifting weights"
+              loading="lazy"
+              class="h-64 w-full object-cover transition duration-500 group-hover:scale-105">
+          </div>
+
+          <div class="overflow-hidden rounded-xl">
+            <img
+              src="https://images.unsplash.com/photo-1534258936925-c58bed479fcb?auto=format&fit=crop&w=900&q=85"
+              alt="Cardio workout"
+              loading="lazy"
+              class="h-64 w-full object-cover transition duration-500 group-hover:scale-105">
+          </div>
+
+          <div class="overflow-hidden rounded-xl">
+            <img
+              src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=900&q=85"
+              alt="Fitness training area"
+              loading="lazy"
+              class="h-64 w-full object-cover transition duration-500 group-hover:scale-105">
+          </div>
+
+        </div>
+
+        <p class="mt-5 text-center text-xs text-gray-500">
+          Explore our fitness gallery to see our modern equipment, expert training sessions, and motivating workout environment. <br>
+          Get inspired to start your fitness journey with IRONFIT.
+        </p>
+
+      </div>
+    </section>
+
+
+    <section id="contact" class="px-5 py-16 md:px-8 md:py-20">
+
+      <div class="mx-auto max-w-7xl">
+
+        <div class="text-center">
+          <p class="font-bold tracking-[3px] text-red-500">TAKE THE FIRST STEP</p>
+          <h2 class="mt-3 text-3xl font-black sm:text-4xl">
+            START YOUR <span class="text-red-500">JOURNEY</span>
+          </h2>
+          <p class="mt-4 text-gray-400">
+            Contact our team to learn more about memberships and training.
+          </p>
+        </div>
+
+        <div class="mt-10 grid gap-8 md:grid-cols-2">
+
+          <div class="rounded-xl border border-gray-800 bg-zinc-950 p-7">
+
+            <h3 class="text-2xl font-bold">Get In Touch</h3>
+
+            <p class="mt-3 leading-7 text-gray-400">
+            Ready to achieve your fitness goals? Our team is here to guide you with the right membership and training plans.
+            Contact IRONFIT today and take the first step toward a stronger, healthier you.....
+            </p>
+
+            <div class="mt-7 space-y-6">
+
+              <div>
+                <p class="font-bold text-red-500">📍 Address</p>
+                <p class="mt-1 text-gray-300">My Gym Fulladdress here..</p>
+              </div>
+
+              <div>
+                <p class="font-bold text-red-500">☎ Phone</p>
+                <a href="tel:+91 9430863342" class="mt-1 inline-block text-gray-300 hover:text-red-400">
+                  +91 9430863342
+                </a>
+              </div>
+
+              <div>
+                <p class="font-bold text-red-500">✉ Email</p>
+                <a href="codewithsanto@gmail.com" class="mt-1 inline-block text-gray-300 hover:text-red-400">
+                  codewithsanto@gmail.com
+                </a>
+              </div>
+
+              <div>
+                <p class="font-bold text-red-500">🕒 Opening Hours</p>
+                <p class="mt-1 leading-6 text-gray-300">
+                  Monday - Saturday<br>
+                  6:00 AM - 10:00 PM<br>
+                  Sunday: Holyday
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+          <form id="contactForm" class="rounded-xl border border-gray-800 bg-zinc-950 p-7">
+
+            <h3 class="text-2xl font-bold">Send An Enquiry</h3>
+
+            <div class="mt-6">
+              <label for="name" class="mb-2 block text-sm font-semibold">
+                Full Name
+              </label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Enter your name"
+                autocomplete="name"
+                required
+                class="w-full rounded-lg border border-gray-700 bg-black px-4 py-3 outline-none transition focus:border-red-500">
+            </div>
+
+            <div class="mt-5">
+              <label for="email" class="mb-2 block text-sm font-semibold">
+                Email Address
+              </label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="Enter your email"
+                autocomplete="email"
+                required
+                class="w-full rounded-lg border border-gray-700 bg-black px-4 py-3 outline-none transition focus:border-red-500">
+            </div>
+
+            <div class="mt-5">
+              <label for="interest" class="mb-2 block text-sm font-semibold">
+                Interested In
+              </label>
+              <select
+                id="interest"
+                name="interest"
+                class="w-full rounded-lg border border-gray-700 bg-black px-4 py-3 outline-none focus:border-red-500">
+                <option>Basic Plan</option>
+                <option>Standard Plan</option>
+                <option>Premium Plan</option>
+                <option>Couple Plan</option>
+                <option>Personal Training</option>
+                <option>Other Enquiry</option>
+              </select>
+            </div>
+
+            <div class="mt-5">
+              <label for="message" class="mb-2 block text-sm font-semibold">
+                Your Message
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Write your message..."
+                required
+                class="w-full rounded-lg border border-gray-700 bg-black px-4 py-3 outline-none focus:border-red-500"></textarea>
+            </div>
+
+            <button
+              type="submit"
+              class="mt-6 w-full rounded-lg bg-red-600 py-3 font-bold transition hover:bg-red-700">
+              Send Message
+            </button>
+
+            <p id="formMessage" class="mt-4 hidden rounded-lg bg-green-950 p-3 text-sm text-green-300" role="status"></p>
+
+            <p class="mt-4 text-xs leading-5 text-gray-500">
+            Please note that this is a demo form. Messages will not be sent or saved until a backend or form 
+            service is integrated.
+            </p>
+
+          </form>
+
+        </div>
+
+        <!-- Map -->
+        <div class="mt-10 overflow-hidden rounded-xl border border-gray-800">
+          <iframe
+            title="Map of Jaipur, Rajasthan"
+            src="https://www.google.com/maps?q=Jaipur%2C%20Rajasthan&output=embed"
+            width="100%"
+            height="300"
+            style="border:0"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <p class="mt-3 text-xs text-gray-500">
+          Map currently shows Jaipur as an example. Update it with your actual gym location.
+        </p>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="border-t border-gray-800 bg-zinc-950 px-5 py-8 md:px-8">
+
+    <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-5 md:flex-row">
+
+      <a href="#home" class="text-2xl font-black">
+        IRON<span class="text-red-500">FIT</span>
+      </a>
+
+      <div class="flex flex-wrap justify-center gap-5 text-sm text-gray-400">
+        <a href="#home" class="hover:text-red-500">Home</a>
+        <a href="#services" class="hover:text-red-500">Services</a>
+        <a href="#offers" class="hover:text-red-500">Offers</a>
+        <a href="#gallery" class="hover:text-red-500">Gallery</a>
+        <a href="#contact" class="hover:text-red-500">Contact</a>
+      </div>
+
+      <p class="text-center text-sm text-gray-500">
+        © 2026 IRONFIT Gym & Fitness.
+      </p>
+
+    </div>
+
+  </footer>
+
+
+</body>
+</html>
